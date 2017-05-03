@@ -1,0 +1,19 @@
+PFont font;
+PFont font2;
+
+void setup() {
+  size(450,150);
+  smooth();
+  font = loadFont("Font1.vlw");
+   font2= loadFont("Font2.vlw");
+}
+void draw(){
+  textFont(font);
+  textSize(60);
+  fill(255,255,245);
+  text("ZANE POTTS",10,80);
+  textFont(font2);
+  textSize(30);
+   fill(145,0,0);
+  text("Zane Potts",90,120);
+}
